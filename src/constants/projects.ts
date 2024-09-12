@@ -36,7 +36,7 @@ export const PROJECTS = [
     links: [
       {
         button: "View Git Repo",
-        url: "https://google.com",
+        url: "https://github.com/yangsiming99/portfolio-v2",
       },
     ],
     id: "web",
