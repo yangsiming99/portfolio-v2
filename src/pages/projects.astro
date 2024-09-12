@@ -1,0 +1,21 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Project } from "../components/Project";
+import { PROJECTS } from "../constants/projects";
+---
+
+<Layout title="projects">
+  <main>
+    <div class="flex bg-base-200 justify-center pt-4 pb-4">
+      <h1 class="text-4xl font-bold">Featured Projects</h1>
+    </div>
+    {
+      PROJECTS.map((project, key) => {
+        return <Project info={project} pos={key} client:load />;
+      })
+    }
+    <!-- <div class="flex bg-base-200 justify-center pt-4 pb-4">
+      <h1 class="text-4xl font-bold">Other Projects</h1>
+    </div> -->
+  </main>
+</Layout>
