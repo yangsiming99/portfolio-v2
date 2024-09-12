@@ -1,0 +1,14 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Resume } from "../components/Resume";
+
+import { Linkedin, GitHub, FileText } from "astro-feather-icons2";
+---
+
+<Layout title="CV">
+  <Resume>
+    <GitHub slot="github" />
+    <Linkedin slot="linkedin" />
+    <FileText slot="filetext" />
+  </Resume>
+</Layout>
