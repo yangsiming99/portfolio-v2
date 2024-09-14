@@ -1,5 +1,6 @@
 import hillside from "../images/hillsideWealth/HillSideWealth_1.png";
 import topStars from "../images/Other/topstars.png";
+import playon from "../images/playon/playon-dashboard.png";
 
 interface Image {
   src: string;
@@ -9,6 +10,11 @@ interface Image {
 
 export function Hero() {
   const images = [
+    {
+      src: playon.src,
+      alt: "Dashboard of Playon Web app",
+      url: "https://github.com/yangsiming99/HillsideWealth-AutoStocks",
+    },
     {
       src: hillside.src,
       alt: "Login screen of Hillside Wealth Autostocks",

@@ -4,10 +4,16 @@ import { Project } from "../components/Project";
 import { PROJECTS } from "../constants/projects";
 ---
 
-<Layout title="projects">
+<Layout>
   <main>
     <div class="flex bg-base-200 justify-center pt-4 pb-4">
-      <h1 class="text-4xl font-bold">Featured Projects</h1>
+      <div class="w-10/12 h-44">
+        <h1
+          class="text-5xl w-fit font-bold bg-gradient-to-r from-red-400 to-blue-500 nline-block text-transparent bg-clip-text pb-2"
+        >
+          Featured Projects
+        </h1>
+      </div>
     </div>
     {
       PROJECTS.map((project, key) => {

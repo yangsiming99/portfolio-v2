@@ -1,5 +1,3 @@
-import { number } from "astro:schema";
-
 interface Image {
   src: string;
   alt: string;

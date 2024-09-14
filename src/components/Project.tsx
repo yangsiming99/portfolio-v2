@@ -17,7 +17,7 @@ interface Props {
 
 export function Project({ info, pos }: Props) {
   const [photo, setPhoto] = useState(0);
-  const [opacity, setOpacity] = useState(true);
+  const [opacity, _setOpacity] = useState(true);
 
   const links =
     info.links.length !== 0 ? (
@@ -54,9 +54,9 @@ export function Project({ info, pos }: Props) {
     <>
       <div className={`hero ${bg} min-h-fit w-screen my-4`}>
         <div
-          className={`hero-content text-start flex flex-col-reverse ${order}`}
+          className={`hero-content w-10/12 text-start flex flex-col-reverse ${order}`}
         >
-          <div className="max-w-5xl flex-1">
+          <div className="max-w-3xl flex-1">
             <h1 className="text-3xl">{info.title}</h1>
             {info.description.map((val: string, key: number) => (
               <p className="py-3" key={key}>
