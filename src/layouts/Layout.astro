@@ -10,20 +10,23 @@ import logo from "../images/Logo.png";
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Google Tag Manager -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2EGEZ4V40T"
+    ></script>
     <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var f = d.getElementsByTagName(s)[0],
-          j: any = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-NHKL4XXB");
+      //@ts-ignore
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        //@ts-ignore
+        dataLayer.push(arguments);
+      }
+      //@ts-ignore
+      gtag("js", new Date());
+      //@ts-ignore
+      gtag("config", "G-2EGEZ4V40T");
     </script>
-    <!-- End Google Tag Manager -->
+
     <meta charset="UTF-8" />
     <meta name="description" content="Portfolio of Siming Yang" />
     <meta name="viewport" content="width=device-width" />
@@ -32,15 +35,6 @@ import logo from "../images/Logo.png";
     <title>Portfolio Site - Siming Yang</title>
   </head>
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-NHKL4XXB"
-        height="0"
-        width="0"
-        style="display:none;visibility:hidden"></iframe></noscript
-    >
-    <!-- End Google Tag Manager (noscript) -->
     <Navbar />
     <slot />
     <Footer>
