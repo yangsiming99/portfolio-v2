@@ -38,7 +38,7 @@ export function Project({ info, pos }: Props) {
       </>
     ) : null;
 
-  const bg = Number(pos) % 2 === 0 ? "bg-base-500" : "bg-base-200";
+  const bg = Number(pos) % 2 === 0 ? "bg-base-200" : "bg-base-500";
   const order = Number(pos) % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse";
 
   const changeImage = async (pos: number) => {

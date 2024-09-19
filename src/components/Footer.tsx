@@ -1,6 +1,6 @@
 export function Footer(props) {
   return (
-    <footer className="footer bg-neutral text-neutral-content items-center p-4 mt-5">
+    <footer className="footer bg-neutral text-neutral-content items-center p-4">
       <aside className="grid-flow-col items-center">
         <p>Hello There @{new Date().getFullYear()}</p>
       </aside>

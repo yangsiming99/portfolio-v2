@@ -5,7 +5,7 @@ export function Resume(props) {
   return (
     <div className="text-start w-screen max-w-screen flex justify-center">
       <div>
-        <div className="w-screen bg-base-500 pt-5 pb-5 flex justify-center">
+        <div className="w-screen bg-base-200 pt-5 pb-5 flex justify-center">
           <div className="w-10/12">
             <h3 className="text-3xl text-right">
               <b>Relevant Links</b>
@@ -36,7 +36,7 @@ export function Resume(props) {
             </div>
           </div>
         </div>
-        <div className="w-screen bg-base-200 pt-5 pb-5 flex justify-center">
+        <div className="w-screen bg-base-500 pt-5 pb-5 flex justify-center">
           <div className="w-10/12 ">
             <h3 className="text-3xl mb-3">
               <b>Experience</b>
@@ -63,7 +63,7 @@ export function Resume(props) {
             </div>
           </div>
         </div>
-        <div className="w-screen bg-base-500 pt-5 pb-5 flex justify-center">
+        <div className="w-screen bg-base-200 pt-5 pb-5 flex justify-center">
           <div className="w-10/12 ">
             <h3 className="text-3xl text-right">
               <b>Education</b>
