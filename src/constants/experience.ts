@@ -39,7 +39,7 @@ export const education = [
   {
     degree: "Bachelor of Technology In Computer Systems",
     institution: "British Columbia Institute of Technology",
-    dates: "2019-Current",
+    dates: "2019-2025",
     location: "Vancouver",
   },
   {
