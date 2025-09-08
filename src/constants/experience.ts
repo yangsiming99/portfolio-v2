@@ -3,7 +3,7 @@ export const experience = [
     company: "PlayOn! Canada",
     position: "Full Stack Developer",
     location: "Vancouver",
-    dates: "June 2023 - September 2024",
+    dates: "June 2023 - September 2025",
     info: [
       "Led the implementation of a visual overhaul for a tournament event management web app, enhancing user experience through responsive design and new features using TypeScript and PostgreSQL.",
       "Developed scalable RESTful APIs and integrated them with front-end components using React-hooks and Material-UI, ensuring a seamless user interface.",
